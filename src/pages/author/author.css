@@ -1,0 +1,51 @@
+.authors{
+    padding: 30px;
+}
+.authors-search-wrapper{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.authors-search-wrapper input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 50px;
+    outline: none;
+}
+.authors-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.author{
+    width: 30%;
+    background-color: rgb(231, 228, 228);
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 7px;
+    padding: 5px;
+}
+.author-image{
+    width: 90%;
+    height: 200px;
+    object-fit: fill;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+@media (max-width:890px) {
+    .author{
+        width: 45%;
+    }
+    
+}
+@media (max-width:620px) {
+    .author{
+        width: 80%;
+    }
+    
+}

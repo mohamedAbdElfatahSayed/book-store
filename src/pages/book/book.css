@@ -1,0 +1,62 @@
+.book-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #b4b2b2;
+}
+.book-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-left:20px ;
+    text-transform: capitalize;
+    width: 40%;
+}
+.discrption{
+    width: 100%;
+    background-color: #4d0101;
+    border-radius: 10px;
+
+}
+.discrption p{
+    color: #ffffffa7;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px ;
+}
+.book-container img{
+    width: 250px;
+    margin: 30px;
+    object-fit: cover;
+
+}
+.book-add-to-cart{
+    display: flex;
+    align-items: center;
+}
+.book-add-to-cart input{
+    margin-right:20px ;
+    border-radius: 7px;
+    padding: 5px;
+
+}
+.book-add-to-cart button{
+    background-color: green;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    text-transform: capitalize;
+    border-radius: 7px;
+    transition: all 1s ease;
+
+}
+.book-add-to-cart button:hover{
+    background-color: rgb(100, 241, 97);
+}
+.book-add-to-cart .bi-cart-plus{
+    padding: 0 10px;
+    color: red;
+    font-size: 25px;
+}

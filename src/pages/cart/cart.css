@@ -1,0 +1,131 @@
+.cart {
+  padding: 30px;
+}
+.cart-title {
+  font-size: 30px;
+  border-bottom: 2px solid teal;
+  text-transform: capitalize;
+  font-weight: 600;
+  width: fit-content;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+.cart-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.cart-items {
+  width: 70%;
+}
+.cart-item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid teal;
+  position: relative;
+  border-radius: 10px;
+  background-color: rgba(220, 20, 60, 0.248);
+
+}
+.cart-item-image {
+  width: 140px;
+  height: 180px;
+  object-fit: fill;
+}
+.cart-item-info {
+  padding: 10px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  width: calc(100% - 160px);
+  justify-content: space-between;
+}
+.cart-item-quantity{
+  display: flex;
+  align-items: center;
+}
+.cart-item-quantity button{
+  border-radius: 5px;
+  background-color: #222821;
+  border: none;
+  color: snow;
+  font-size: 17px;
+}
+.cart-item-quantity i{
+  padding: 5px;
+}
+.cart-item-quantity b{
+  margin: 0 10px;
+}
+.cart-item-price{
+  margin: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.bi-trash-fill{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color:crimson;
+  font-size: 25px;
+  cursor: pointer;
+}
+.cart-order-summary{
+  width: 30%;
+  border-radius: 7px;
+  
+}
+.cart-order-title{
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  border-top: 1px  solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.order-summary-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-transform: capitalize;
+  border: 1px solid black;
+}
+@media (max-width:820px){
+    .cart-wrapper{
+      flex-direction: column;
+    }
+    .cart-items{
+      width: 100%;
+    }
+    .cart-order-summary{
+      width: 80%;
+    }
+
+}
+@media (max-width:520px){
+     .cart{
+      padding: 0;
+     }
+     .cart-title{
+      text-align: center;
+      margin: 10px auto;
+     }
+     .cart-items{
+      width: 100%;
+     }
+   .cart-item{
+    width: 90%;
+    flex-direction: column;
+    justify-self: center;
+    
+   }
+   .cart-item-info{
+    flex-direction: column;
+   }
+   .cart-order-summary{
+    margin: 10px auto;
+
+   }
+
+}

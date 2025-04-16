@@ -1,0 +1,58 @@
+.contact{
+    background-color: burlywood;
+    width: 100%;
+}
+.contact-wrapper{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+.contact-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-item-icon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-item-icon i{
+    font-size: 40px;
+    color: var(--primary-color);
+    margin: 10px;
+
+}
+.contact-item-icon {
+ font-size: 25px;
+ text-transform: capitalize;
+ margin: 10px;
+}
+@media (max-width:750px) {
+    .contact-wrapper{
+        flex-direction: column;
+    }
+}
+.mohamed{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+    border-radius: 7px;
+    margin-top: 10px;
+    
+}
+.mohamed-image{
+    width:30%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 7px;
+    margin: 10px;
+}
+.mohamed-name{
+    text-transform: capitalize;
+}
