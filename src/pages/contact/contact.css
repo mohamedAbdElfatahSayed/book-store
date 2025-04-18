@@ -53,6 +53,18 @@
     border-radius: 7px;
     margin: 10px;
 }
+
 .mohamed-name{
     text-transform: capitalize;
+}
+@media (max-width:860px) {
+    .mohamed{
+        flex-direction: column;
+    }
+    .mohamed-image{
+        width: 95%;
+    }
+    .mohamed-name{
+        font-size: 21px;
+    }
 }
