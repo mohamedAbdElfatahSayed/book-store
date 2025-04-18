@@ -65,7 +65,9 @@
         flex-direction: column;
     }
     .book-container img{
-        width: 90%;
+        object-fit: fill;
+        width: 80%;
+        height: 400px;
     }
     .book-info{
         width: 90%;
